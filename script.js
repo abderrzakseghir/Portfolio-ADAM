@@ -1,5 +1,4 @@
 import data from './data.json';
-import profilePhoto from './picadam.png';
 
 document.addEventListener('DOMContentLoaded', () => {
     try {
@@ -20,9 +19,8 @@ function populatePortfolio(data) {
     // Photo de profil
     const photoEl = document.getElementById('profile-photo');
     if (data.header.photoPlaceholder) {
-        photoEl.src = data.header.photoPlaceholder === 'picadam.png'
-            ? profilePhoto
-            : data.header.photoPlaceholder;
+        const cleanPath = data.header.photoPlaceholder.replace(/^\/+/, '');
+        photoEl.src = new URL(cleanPath, window.location.origin + import.meta.env.BASE_URL).toString();
     }
 
     // Footer
