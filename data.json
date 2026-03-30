@@ -1,0 +1,111 @@
+{
+  "header": {
+    "name": "Adam Zeggai",
+    "title": "Candidature Stage Data Scientist",
+    "location": "Marseille 13016",
+    "photoPlaceholder": "picadam.png"
+  },
+  "about": "Curieux et matheux passionné, je possède une base solide en programmation grâce à ma persévérance durant ma formation. Je souhaite approfondir mes compétences à travers votre stage Data AI Factory.",
+  "contact": {
+    "phone": "0605643036",
+    "email": "adamzeggai98@gmail.com"
+  },
+  "skills": {
+    "technical": ["Python", "Java", "C", "C++", "HTML", "CSS", "SQL", "Django", "JAX", "Machine Learning", "Deep Learning", "Computer Vision", "Data Science"],
+    "soft": ["Analyse et optimisation d'algorithmes", "Modélisation et résolution de problèmes", "Communication", "Travail en équipe"]
+  },
+  "education": [
+    {
+      "degree": "Master Mathématiques Appliquées et Statistiques à la Data Science",
+      "school": "Aix-Marseille Université",
+      "year": "2025 - présent"
+    },
+    {
+      "degree": "Licence Mathématiques-Informatique",
+      "school": "Aix-Marseille Université",
+      "year": "2021 - 2025"
+    },
+    {
+      "degree": "Première année Licence Mathématiques-Informatique",
+      "school": "USTHB (Alger)",
+      "year": "2020 - 2021"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Interpréteur Python",
+      "technologies": ["Compilation", "AST", "Algorithmique"],
+      "description": "Conception et développement d'un interpréteur personnalisé pour le langage Python. Ce projet met en évidence une maîtrise de la compilation, de l'analyse lexicale et syntaxique, ainsi que de l'évaluation du code à l'exécution."
+    },
+    {
+      "name": "Analyseur Syntaxique ANTLR",
+      "technologies": ["ANTLR", "Grammaires Formelles", "Parsing"],
+      "description": "Utilisation du framework ANTLR pour concevoir et implémenter des grammaires formelles. Génération d'analyseurs lexicaux et syntaxiques robustes pour le traitement de langages structurés."
+    },
+    {
+      "name": "Système de Détection d'Incendie",
+      "technologies": ["Computer Vision", "Deep Learning", "Traitement d'image"],
+      "description": "Développement d'une solution de vision par ordinateur basée sur l'IA pour identifier les départs de feu et les fumées en temps réel, démontrant des compétences en traitement d'image appliqué à la sécurité."
+    },
+    {
+      "name": "Novel Explorer",
+      "technologies": ["Django", "Python", "SQL", "Web Full-Stack"],
+      "description": "Création d'une application web full-stack permettant d'explorer et de cataloguer des web novels. Mise en place d'une architecture robuste, d'une base de données relationnelle et d'une interface utilisateur intuitive."
+    },
+    {
+      "name": "Optimisation JAX & Benchmarking LLM",
+      "technologies": ["Python", "JAX", "Statistiques Computationnelles", "LLMs"],
+      "description": "Évaluation et comparaison de chatbots. Utilisation avancée de la bibliothèque JAX pour l'implémentation de boucles d'entraînement et d'optimisation en statistiques computationnelles, accélérant les calculs tensoriels."
+    },
+    {
+      "name": "Analyse Prédictive : Données d'Obésité",
+      "technologies": ["Data Science", "Random Forest", "Régression Logistique", "Classification"],
+      "description": "Projet de L3 en traitement de données. Analyse exploratoire de jeux de données sur l'obésité et implémentation de modèles prédictifs : Régression Logistique et Random Forest. Compétences récemment perfectionnées en classification et modèles linéaires."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Cuisinier",
+      "company": "Squadra Grillz 13002",
+      "period": "Mai 2025 - Aou 2025",
+      "description": "Discipline et ponctualité"
+    },
+    {
+      "title": "Employé Polyvalent",
+      "company": "McDonalds 13016",
+      "period": "Oct 2023 - Nov 2024",
+      "description": "Rigueur et concentration sous pression. Autonomie, communication et esprit d'équipe."
+    }
+  ],
+  "volunteering": [
+    {
+      "title": "Élu & Représentant Étudiant",
+      "company": "UNEF / Union Étudiante",
+      "period": "2022 - 2024",
+      "description": "Représentation et défense des droits des étudiants. Développement de compétences en communication, négociation et travail en équipe au sein des instances universitaires."
+    },
+    {
+      "title": "Membre de la Commission FSDIE",
+      "company": "Université",
+      "period": "2022 - 2024",
+      "description": "Participation au Fonds de Solidarité et de Développement des Initiatives Étudiantes. Évaluation de projets associatifs, gestion de subventions et prise de décisions en commission."
+    },
+    {
+      "title": "Bénévole",
+      "company": "Solid'am",
+      "period": "2023 - Présent",
+      "description": "Engagement bénévole et solidaire. Participation aux collectes, aide logistique et accompagnement."
+    }
+  ],
+  "languages": [
+    "Français (C2)",
+    "Arabe (C2)",
+    "Anglais (C2)",
+    "Kabyle (natale)"
+  ],
+  "hobbies": [
+    "Pratique de la guitare",
+    "Développement de projets open-source",
+    "Veille technologique en Data Science & IA"
+  ]
+}

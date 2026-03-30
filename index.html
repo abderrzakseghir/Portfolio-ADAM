@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Zeggai - Portfolio Data Scientist</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo" id="nav-logo">AZ.</div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#experience">Parcours</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-text">
+                <p class="greeting">Bonjour, je suis</p>
+                <h1 id="hero-name"></h1>
+                <h2 id="hero-title"></h2>
+                <p id="hero-location" class="text-muted"><i class="fas fa-map-marker-alt"></i> <span></span></p>
+                <p id="about-text" class="hero-description"></p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn primary-btn">Me contacter</a>
+                    <a href="#projects" class="btn secondary-btn">Voir mes projets</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <!-- La source de l'image sera injectée via JS -->
+                <img id="profile-photo" src="" alt="Photo de profil de Adam Zeggai" class="profile-photo" referrerPolicy="no-referrer">
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Mes Projets</h2>
+                <p class="section-subtitle">Une sélection de mes travaux récents en Data Science et Développement.</p>
+                <div id="projects-grid" class="projects-grid"></div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Mon Parcours</h2>
+                
+                <div class="timeline-grid">
+                    <!-- Formation -->
+                    <div class="timeline-column">
+                        <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Formation</h3>
+                        <div id="education-timeline" class="timeline"></div>
+                    </div>
+
+                    <!-- Expérience Pro -->
+                    <div class="timeline-column">
+                        <h3 class="column-title"><i class="fas fa-briefcase"></i> Expérience Professionnelle</h3>
+                        <div id="experience-timeline" class="timeline"></div>
+                    </div>
+
+                    <!-- Engagement Associatif -->
+                    <div class="timeline-column">
+                        <h3 class="column-title"><i class="fas fa-hands-helping"></i> Engagement Associatif</h3>
+                        <div id="volunteering-timeline" class="timeline"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Hobbies Section -->
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Compétences & Intérêts</h2>
+                
+                <div class="skills-layout">
+                    <div class="skills-main">
+                        <div class="skills-category">
+                            <h3>Compétences Techniques</h3>
+                            <div id="technical-skills" class="tags-container"></div>
+                        </div>
+                        <div class="skills-category">
+                            <h3>Soft Skills</h3>
+                            <div id="soft-skills" class="tags-container"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-sidebar">
+                        <div class="skills-category">
+                            <h3>Langues</h3>
+                            <ul id="language-skills" class="simple-list"></ul>
+                        </div>
+                        <div class="skills-category">
+                            <h3>Centres d'intérêt</h3>
+                            <ul id="hobbies-list" class="simple-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container text-center">
+                <h2 class="section-title">Contactez-moi</h2>
+                <p class="section-subtitle">Je suis actuellement à la recherche d'un stage. N'hésitez pas à me contacter !</p>
+                
+                <div class="contact-cards">
+                    <a href="" id="contact-email-link" class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h4>Email</h4>
+                        <p id="contact-email-text"></p>
+                    </a>
+                    <a href="" id="contact-phone-link" class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <h4>Téléphone</h4>
+                        <p id="contact-phone-text"></p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> <span id="footer-name"></span>. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
